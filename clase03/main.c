@@ -34,6 +34,7 @@ int pedirNumerosDoWhile(void)
 }
 int pedirNumerosIf(void)
 {
+    //pedir numeros IF
     int maximo;
     int contador=0;
     int auxiliar;
