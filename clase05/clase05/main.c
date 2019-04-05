@@ -1,19 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "array.h"
-#define LIMIT 5
+#define LIMIT 10
 #define MAX 100
 #define MIN 0
 
 int main()
 {
-    int i;
+    int max,min;
     int numbers [LIMIT];
+    float prom;
+
+
     utn_getArrayNumberRanged(numbers,LIMIT,MAX,MIN,"Ingrese un numero","Error",3);
-    for(i=0;i<LIMIT;i++)
-    {
-        printf("%d\n",numbers[i]);
-    }
+
+    utn_calculateProm(numbers,LIMIT,&prom);
+    printf("El promedio es: %.2f\n",prom);
+    utn_searchMaxArray(numbers,LIMIT,&max);
+    printf("El maximo del array es: %d\n",max);
+    utn_searchMinArray(numbers,LIMIT,&min);
+    printf("El minimo del array es: %d\n",min);
 
 
     return 0;

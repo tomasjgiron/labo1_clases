@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1554339018 source:/home/alumno/Documentos/clase05/clase05/main.c
+1554421600 source:/home/alumno/Documentos/clase05/clase05/main.c
 	<stdio.h>
 	<stdlib.h>
 	"array.h"
 
-1554331916 /home/alumno/Documentos/clase05/clase05/array.h
+1554421547 /home/alumno/Documentos/clase05/clase05/array.h
+
+1554422261 source:/home/alumno/Documentos/clase05/clase05/array.c
+	<stdio.h>
 

@@ -224,7 +224,7 @@ int utn_getArrayInt(int *pNumberArray, int limit, char* msg, char* msgError)
     return ret;
 }
 
-int utn_getArrayNumberRanged(int *pNumberArray,int limit , int max, int min, char* msg, char* msgError, int tries)
+int utn_getArrayNumberRanged(int *pNumberArray,int limit, int max, int min, char* msg, char* msgError, int tries)
 {
     int i;
     int ret;
@@ -255,3 +255,73 @@ int swap(int *numberA, int *numberB)
     }
     return 0;
 }
+
+int utn_showArrayInt(int array[],int limit)
+{
+    int i;
+    for(i=0;i<limit;i++)
+    {
+        printf("%d\n",array[i]);
+    }
+    return 0;
+}
+
+int utn_calculateProm(int array[],int limit,float *pProm)
+{
+    int i;
+    int acumulador = 0;
+    int ret = -1;
+    if(array != NULL && limit > 0 && pProm != NULL)
+    {
+        for(i=0;i<limit;i++)
+        {
+            acumulador+=array[i];
+        }
+        *pProm = acumulador/limit;
+        ret = 0;
+    }
+    return ret;
+}
+
+int utn_searchMaxArray(int array[],int limit,int *pMax)
+{
+    int i;
+    int aux;
+    int ret = -1;
+    aux = array[0];
+    if(array != NULL && limit > 0 && pMax != NULL)
+    {
+        for(i=0;i<limit;i++)
+        {
+            if(array[i]>aux)
+            {
+                aux = array[i];
+            }
+        }
+        *pMax = aux;
+        ret = 0;
+    }
+    return ret;
+}
+
+int utn_searchMinArray(int array[],int limit,int *pMin)
+{
+    int i;
+    int aux;
+    int ret = -1;
+    aux = array[0];
+    if(array != NULL && limit > 0 && pMin != NULL)
+    {
+        for(i=0;i<limit;i++)
+        {
+            if(array[i]<aux)
+            {
+                aux = array[i];
+            }
+        }
+        *pMin = aux;
+        ret = 0;
+    }
+    return ret;
+}
+int utn_buscarNumeroArray()
