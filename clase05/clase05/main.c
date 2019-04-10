@@ -7,7 +7,7 @@
 
 int main()
 {
-    int max,min;
+    int max,min,number;
     int numbers [LIMIT];
     float prom;
 
@@ -20,6 +20,8 @@ int main()
     printf("El maximo del array es: %d\n",max);
     utn_searchMinArray(numbers,LIMIT,&min);
     printf("El minimo del array es: %d\n",min);
+
+    utn_searchNumberArray(numbers,LIMIT,&number,"Se encontro el numero","No se encontro el numero");
 
 
     return 0;

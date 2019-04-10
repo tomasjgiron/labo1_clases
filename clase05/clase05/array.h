@@ -31,5 +31,7 @@ int utn_searchMaxArray(int array[],int limit,int *pMax);
 
 int utn_searchMinArray(int array[],int limit,int *pMin);
 
+int utn_searchNumberArray(int array[],int limit,int *pNum,char *msg, char *msgError);
+
 #endif // FUNCIONES_H_INCLUDED
 

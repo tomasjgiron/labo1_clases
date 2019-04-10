@@ -324,4 +324,24 @@ int utn_searchMinArray(int array[],int limit,int *pMin)
     }
     return ret;
 }
-int utn_buscarNumeroArray()
+int utn_searchNumberArray(int array[],int limit,int *pNum,char *msg, char *msgError)
+{
+    int i;
+    int ret = -1;
+
+    utn_getInt(pNum,"Ingrese el numero a buscar: ","Error");
+    if(array != NULL && limit > 0 && pNum != NULL)
+    {
+        for(i=0;i<limit;i++)
+        {
+            if(array[i] == *pNum)
+            {
+                printf(msg);
+                ret = 0;
+                break;
+            }
+        }
+        printf(msgError);
+    }
+    return ret;
+}
