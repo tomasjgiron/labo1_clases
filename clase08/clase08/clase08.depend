@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1555030090 source:/home/alumno/Documentos/clase08/clase08/arrayReloaded.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arrayReloaded.h"
+
+1555030283 /home/alumno/Documentos/clase08/clase08/arrayReloaded.h
+
