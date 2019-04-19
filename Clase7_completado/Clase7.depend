@@ -36,3 +36,36 @@
 
 1555546493 /home/alumno/Documentos/Giron - Clase 07/Clase7_completado/utn.h
 
+1555550034 source:c:\users\tomas\desktop\labo1_clases-master\clase7_completado\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1555550034 c:\users\tomas\desktop\labo1_clases-master\clase7_completado\utn.h
+
+1555621351 source:c:\users\tomas\desktop\labo1_clases-master\clase7_completado\arraynuevo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"empleado.h"
+
+1555621331 c:\users\tomas\desktop\labo1_clases-master\clase7_completado\arraynuevo.h
+
+1555633879 c:\users\tomas\desktop\labo1_clases-master\clase7_completado\empleado.h
+
+1555633870 source:c:\users\tomas\desktop\labo1_clases-master\clase7_completado\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"empleado.h"
+
+1555633884 source:c:\users\tomas\desktop\labo1_clases-master\clase7_completado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+	"empleado.h"
+
