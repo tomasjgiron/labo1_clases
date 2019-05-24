@@ -35,9 +35,17 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="alumno.h" />
+		<Unit filename="arraynuevo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arraynuevo.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="persona.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="persona.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

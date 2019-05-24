@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define LEN_ALUMNO 5
+#include "persona.h"
+#include "arraynuevo.h"
+#define LEN_PERSONA 50
+#define TRIES 3
+#define LEN_FOR 3
 
 int main()
 {
-    Alumno* arrayAlumnos[LEN_ALUMNO];
-    Alumno* pAuxiliar;
-
-    pAuxiliar = alumno_new();
-    if(pAuxiliar != NULL)
+    Persona* arrayPersonas[LEN_PERSONA];
+    int i;
+    persona_initArray(arrayPersonas,LEN_PERSONA);
+    for(i=0;i<LEN_FOR;i++)
     {
-        alumno_setName(pAuxiliar,"Natalia");
-        arrayAlumnos[0] = pAuxiliar;
+        persona_addPersona(arrayPersonas,LEN_PERSONA,"Error en el alta",TRIES);
+        ///usar los gets en el alta y printf
+
     }
+
+
 
 
 

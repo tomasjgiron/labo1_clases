@@ -1,11 +1,11 @@
 #ifndef ALUMNO_H_INCLUDED
 #define ALUMNO_H_INCLUDED
-#define LEN_NAME 50
+#define LEN_NAME 30
 
 typedef struct
 {
     int idAlumno;
-    char nombre[LEN_NAME];
+    char name[LEN_NAME];
     int legajo;
     int status;
 

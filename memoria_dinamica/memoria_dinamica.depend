@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1558660566 source:/home/alumno/labo1_clases-master/memoria_dinamica/main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+	"arraynuevo.h"
+
+1558653017 /home/alumno/labo1_clases-master/memoria_dinamica/alumno.h
+
+1558655212 source:/home/alumno/labo1_clases-master/memoria_dinamica/alumno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumno.h"
+
+1558653752 source:/home/alumno/labo1_clases-master/memoria_dinamica/arraynuevo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+
+1558653752 /home/alumno/labo1_clases-master/memoria_dinamica/arraynuevo.h
+
+1558660038 source:/home/alumno/labo1_clases-master/memoria_dinamica/persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
+	"arraynuevo.h"
+
+1558660626 /home/alumno/labo1_clases-master/memoria_dinamica/persona.h
+
