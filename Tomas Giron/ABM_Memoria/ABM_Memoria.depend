@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1559169057 source:c:\users\baldi\documents\utn_workspace\testing_code\abm_memoria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1559169048 c:\users\baldi\documents\utn_workspace\testing_code\abm_memoria\persona.h
+
+1559169063 source:c:\users\baldi\documents\utn_workspace\testing_code\abm_memoria\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
+	"utn_strings.h"
+
+1558139651 c:\users\baldi\documents\utn_workspace\testing_code\abm_memoria\utn_strings.h
+
+1558139651 source:c:\users\baldi\documents\utn_workspace\testing_code\abm_memoria\utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1559264018 source:/home/alumno/Documentos/Modelos-master/ABM_Memoria/main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1559263667 /home/alumno/Documentos/Modelos-master/ABM_Memoria/persona.h
+
+1559263963 source:/home/alumno/Documentos/Modelos-master/ABM_Memoria/persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
+	"utn_strings.h"
+
+1559171810 /home/alumno/Documentos/Modelos-master/ABM_Memoria/utn_strings.h
+
+1559171810 source:/home/alumno/Documentos/Modelos-master/ABM_Memoria/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1559772218 source:/home/alumno/Tomas Giron/ABM_Memoria/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1559772218 /home/alumno/Tomas Giron/ABM_Memoria/utn_strings.h
+
+1559772572 source:/home/alumno/Tomas Giron/ABM_Memoria/main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1559772218 /home/alumno/Tomas Giron/ABM_Memoria/persona.h
+
