@@ -53,3 +53,48 @@
 	"LinkedList.h"
 	"Employee.h"
 
+1559870457 source:/home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"arraynuevo.h"
+	"parser.h"
+
+1559783199 /home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/LinkedList.h
+
+1559783199 /home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/Controller.h
+
+1559866851 /home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/Employee.h
+
+1559870642 source:/home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1559783199 source:/home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/arraynuevo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraynuevo.h"
+
+1559783199 /home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/arraynuevo.h
+
+1559869724 source:/home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1559867318 source:/home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"arraynuevo.h"
+
+1559869132 /home/alumno/labo1_clases-master/Tomas Giron/TP3/Linux_64/parser.h
+

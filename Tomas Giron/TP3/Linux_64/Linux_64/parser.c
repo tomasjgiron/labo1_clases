@@ -10,54 +10,42 @@
  * \return int
  *
  */
-int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
+int parser_EmployeeFromText(FILE* fp, LinkedList* pArrayListEmployee)
 {
+    Employee* pEmployee;
+    int cantidad;
+    char aux[512];
+    char auxId[512];
+    char auxNombre[512];
+    char auxApellido[512];
+    char auxEdad[512];
+    int max;
 
-    char bufferId[4096];
-    char bufferNombre[4096];
-    char bufferHorasTrabajadas[4096];
-    char bufferSueldo[4096];
-    Employee *pEmpleado;
-
-
-    if(pFile != NULL)
+    printf("entramos al parser");
+    if(fp != NULL)
     {
-        fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",  bufferId,
-                                                  bufferNombre,
-                                                  bufferHorasTrabajadas,
-                                                  bufferSueldo);
-        while(!feof(pFile))
+        fgets(aux,512,fp); ///saltea linea
+
+        do
         {
-            fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",  bufferId,
-                                                  bufferNombre,
-                                                  bufferHorasTrabajadas,
-                                                  bufferSueldo);
-
-            pEmpleado = employee_newParametros(     bufferId,
-                                                    bufferNombre,
-                                                    bufferHorasTrabajadas,
-                                                    bufferSueldo);
-
-
-
-            if(pEmpleado != NULL)
+            cantidad = fscanf(fp,"%[^,],%[^,],%[^,],%[^\n]\n",auxId,auxNombre,auxApellido,auxEdad);
+            if(cantidad == 4)
             {
-                if(ll_add(pArrayListEmployee,pEmpleado))
+                pEmployee = employee_newParametros(auxId,auxNombre,auxApellido,auxEdad);
+                if(pEmployee != NULL)
                 {
-
-
+                    ll_add(pArrayListEmployee,pEmployee);
+                    /*if(atoi(auxId) > max)
+                    {
+                        max = atoi(auxId);
+                    }*/
                 }
             }
-
-        }
+        }while(feof(fp) == 0);
     }
 
-
-
-
-
-
-    return 1;
+    //setIdInicial(max);
+    return 0;
 }
 
 /** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo binario).

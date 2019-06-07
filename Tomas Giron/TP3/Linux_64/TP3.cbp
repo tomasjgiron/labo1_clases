@@ -44,6 +44,10 @@
 		</Unit>
 		<Unit filename="Employee.h" />
 		<Unit filename="LinkedList.h" />
+		<Unit filename="arraynuevo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arraynuevo.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
